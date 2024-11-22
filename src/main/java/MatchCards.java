@@ -21,7 +21,6 @@ public class MatchCards {
     ImageIcon cardBackImageIcon;
 
     final int BOARD_WIDTH = COLUMNS * CARD_WIDTH; // 5 * 128 = 640px
-    final int BOARD_HEIGHT = ROWS * CARD_HEIGHT; // 4 * 90 = 360px
 
     JFrame frame = new JFrame("Match Cards");
     JLabel textLabel = new JLabel();
