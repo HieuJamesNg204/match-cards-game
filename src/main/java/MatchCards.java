@@ -136,6 +136,10 @@ public class MatchCards {
 
         frame.pack();
 
+        Image programIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/card-icon.png")))
+                .getImage();
+        frame.setIconImage(programIcon);
+
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
